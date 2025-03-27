@@ -3078,7 +3078,7 @@
 				
 				
 				
-				<!--
+				
 				<div id="ucapan" class="section-full s-menu content-inner pt-0 pb-0">
 					<div class="container py-5 my-0 themeWebSecondary" style="transition-duration: 600ms; transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);border-bottom: 0px;z-index: 1;position: relative;padding-top: 30px!important;">
 						<style>
@@ -3149,7 +3149,7 @@
 						</div>
 					</div>
 				</div>
-				-->
+				
 				
 				
 				
@@ -3942,7 +3942,7 @@
                  $.ajax({
                      type: 'get',
                      // url: url_get,
-                                             url: 'assets/getKomentar.json',
+                                             url: 'http://krafta-rsvp-ucapan.infinityfreeapp.com/get-ucapan.php?cid=dayat-intan',
                                           dataType: 'json',
                      // processData: false, 
                      // contentType: false,
@@ -3971,7 +3971,7 @@
                  $.ajax({
                      type: 'post',
                      // url: url_post,
-                                             url: '#',
+                                             url: 'http://krafta-rsvp-ucapan.infinityfreeapp.com/post-ucapan.php?cid=dayat-intan',
                                           data: commentJSON,
                      // data: val,
                      dataType: 'json',
@@ -4247,4 +4247,4 @@
 	
 	
 </body>
-</html>
+</html> 
